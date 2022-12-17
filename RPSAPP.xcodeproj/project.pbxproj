@@ -13,6 +13,9 @@
 		4BBB9EDA2948A6E400168650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBB9ED82948A6E400168650 /* Main.storyboard */; };
 		4BBB9EDC2948A6E500168650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBB9EDB2948A6E500168650 /* Assets.xcassets */; };
 		4BBB9EDF2948A6E500168650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBB9EDD2948A6E500168650 /* LaunchScreen.storyboard */; };
+		4BBB9EE72948B46600168650 /* RPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB9EE62948B46600168650 /* RPSViewController.swift */; };
+		4BBB9EEB2948B7B500168650 /* RPSElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB9EEA2948B7B500168650 /* RPSElement.swift */; };
+		4BBB9EED294D790D00168650 /* RPSStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB9EEC294D790D00168650 /* RPSStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4BBB9EDB2948A6E500168650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BBB9EDE2948A6E500168650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BBB9EE02948A6E500168650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBB9EE62948B46600168650 /* RPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSViewController.swift; sourceTree = "<group>"; };
+		4BBB9EEA2948B7B500168650 /* RPSElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSElement.swift; sourceTree = "<group>"; };
+		4BBB9EEC294D790D00168650 /* RPSStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				4BBB9EDB2948A6E500168650 /* Assets.xcassets */,
 				4BBB9EDD2948A6E500168650 /* LaunchScreen.storyboard */,
 				4BBB9EE02948A6E500168650 /* Info.plist */,
+				4BBB9EE62948B46600168650 /* RPSViewController.swift */,
+				4BBB9EEA2948B7B500168650 /* RPSElement.swift */,
+				4BBB9EEC294D790D00168650 /* RPSStatus.swift */,
 			);
 			path = RPSAPP;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BBB9ED72948A6E400168650 /* ViewController.swift in Sources */,
+				4BBB9EED294D790D00168650 /* RPSStatus.swift in Sources */,
 				4BBB9ED32948A6E400168650 /* AppDelegate.swift in Sources */,
+				4BBB9EE72948B46600168650 /* RPSViewController.swift in Sources */,
 				4BBB9ED52948A6E400168650 /* SceneDelegate.swift in Sources */,
+				4BBB9EEB2948B7B500168650 /* RPSElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
